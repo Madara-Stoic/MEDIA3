@@ -1,0 +1,8 @@
+npm install --save-dev hardhat
+npx hardhat
+npx hardhat compile
+npx hardhat run scripts/deploy.js --network localhost
+npm install ethers ipfs-http-client
+npm start
+npm run build
+npx vercel --prod
